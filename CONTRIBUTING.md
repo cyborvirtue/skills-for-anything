@@ -1,97 +1,99 @@
-# Contributing to Skills for Anything
+# 参与贡献
 
-Thanks for helping improve the list.
+<p align="right">
+  简体中文 | <a href="./CONTRIBUTING_EN.md">English</a>
+</p>
 
-This repository is intentionally curated. The goal is not to collect every repository that mentions "skills". The goal is to maintain a high-signal discovery hub for reusable AI skills and skills resources.
+感谢你帮助完善 `Skills for Anything`。
 
-## What We Accept
+这个仓库是一个刻意保持精选的列表。目标不是把所有提到过 `skills` 的仓库都收进来，而是维护一个高信号、适合发现优质资源的 AI Skills 导航项目。
 
-Submit entries that are clearly one of these:
+## 我们接受什么类型的提交
 
-- a reusable skill or skill pack
-- a skills marketplace or installer
-- a skills registry or portability layer
-- a curated skills directory
-- a standout skill directory inside a larger repository
+欢迎提交以下类型的内容：
 
-Strong candidates usually have at least one of these qualities:
+- 可复用的 skill 或 skill pack
+- skills marketplace 或安装器
+- skills registry 或跨平台分发工具
+- skills 导航型目录
+- 大仓库里特别值得单独发现的 skill 目录
 
-- practical reuse value
-- active maintenance
-- notable traction
-- clear domain focus
-- clear fit with the broader skills ecosystem
+更强的候选条目通常具备以下至少一项特征：
 
-## What We Do Not Accept
+- 有明确的复用价值
+- 持续维护中
+- 有一定关注度或使用信号
+- 领域定位清晰
+- 对整个 skills 生态有明确补充价值
 
-Please do not submit:
+## 我们不接受什么
 
-- generic prompt libraries
-- general AI tool lists with no strong skills angle
-- blog posts or tutorials as primary entries
-- abandoned repositories with unclear value
-- repositories that use "skill" as a buzzword but do not expose reusable skill assets
+请不要提交以下内容：
 
-## Scope Rules
+- 通用 prompt 合集
+- 与 skills 关系很弱的 AI 工具导航
+- 以文章、博客、教程为主的内容
+- 已经停止维护且价值不明确的仓库
+- 只是把 `skill` 当作营销词，但并没有真实可复用 skill 资产的项目
 
-This list is:
+## 收录范围规则
+
+这个列表的基本原则是：
 
 - GitHub-first
-- domain-organized
-- selective rather than exhaustive
+- 按领域组织
+- 精选优先，而不是穷举优先
 
-That means:
+这意味着：
 
-- repository links are preferred
-- direct links to a specific skill directory are allowed when the directory is the most useful unit
-- categories do not need to be perfectly balanced
+- 默认优先提交 GitHub 仓库
+- 只有当某个具体 skill 目录本身比整个仓库更值得发现时，才直接链接到该目录
+- 不会为了让每个分类看起来平均，而故意塞入弱条目
 
-## Entry Format
+## 条目格式
 
-Use this format in `README.md`:
-
-```md
-- [project-name](https://github.com/owner/repo) - One-sentence description of why it matters.
-```
-
-If you are linking to a specific skill directory, use:
+`README.md` 中统一使用这种格式：
 
 ```md
-- [skill-name](https://github.com/owner/repo/tree/main/path/to/skill) - One-sentence description of why it matters.
+- [project-name](https://github.com/owner/repo) - 一句话说明它为什么值得关注。
 ```
 
-Guidelines:
+如果你要提交的是某个具体 skill 目录，则使用：
 
-- keep descriptions to one sentence
-- keep wording concrete
-- avoid hype language like "best", "ultimate", or "revolutionary"
-- explain why the entry is useful, not just what it is called
+```md
+- [skill-name](https://github.com/owner/repo/tree/main/path/to/skill) - 一句话说明它为什么值得关注。
+```
 
-## Before You Open a PR
+写描述时请注意：
 
-Check the following:
+- 尽量保持一句话
+- 语言具体，避免空泛
+- 不要使用 “best”、“ultimate”、“revolutionary” 这一类夸张词
+- 重点写“它为什么有用”，而不是仅仅解释名字
 
-- the link works
-- the item is not already listed
-- the category is the best available fit
-- the description is concise and factual
-- the submission clearly improves discovery value
+## 在提 PR 前请先检查
 
-## Suggested PR Content
+- 链接可正常访问
+- 仓库中尚未重复收录
+- 分类放置合理
+- 描述简洁且准确
+- 这条提交确实提升了列表的发现价值
 
-Include:
+## 建议的 PR 内容
 
-- the URL
-- the proposed category
-- a one-sentence description
-- one or two lines explaining why it belongs here
+请尽量在 PR 描述中包含：
 
-## Review Standard
+- 提交的 URL
+- 你建议的分类
+- 一句话描述
+- 1 到 2 句说明它为什么应该出现在这里
 
-Maintainers may reject entries that:
+## 审核标准
 
-- weaken the focus of the list
-- duplicate stronger entries already present
-- feel too early, too vague, or too low-signal
+维护者可能会拒绝以下条目：
 
-Quality beats symmetry. Some domains will stay smaller until the ecosystem matures.
+- 会削弱列表主题聚焦度的内容
+- 与现有更强条目重复的内容
+- 还太早期、太模糊或信号太弱的内容
+
+这里的标准是：质量优先于对称性。有些领域目前本来就比其他领域成熟得更早。
