@@ -6,19 +6,19 @@
 
 > A curated collection of open-source AI skills, skill packs, and skills resources across coding, research, writing, design, data, product, marketing, and more.
 
-Skills for Anything is a GitHub-first guide to reusable AI capabilities.
+Skills for Anything is a curated guide to open-source AI skills and related resources.
 
-Most collections are organized by platform. This one is organized by what you want to do.
+Most skills are scattered across platforms, organizations, and repositories. This project organizes them by domain so people can start from the work they want to do, not from the platform they happen to use.
 
-This list is selective, not exhaustive. The goal is to surface high-signal projects and standout skill directories without turning the repository into a link dump.
+The list is selective rather than exhaustive. The goal is to surface strong projects and standout skill directories without turning the repository into a dump of loosely related links.
 
 Last reviewed: March 10, 2026
 
 ## Why This Exists
 
-Open-source skills are spreading across many ecosystems, but discovery is still fragmented.
+Open-source skills are expanding quickly, but discovery is still fragmented.
 
-Some projects are vendor-specific. Some are marketplaces. Some are just one excellent skill hidden inside a much larger repository. Skills for Anything exists to make that landscape easier to browse by domain instead of by platform.
+Official repositories, community directories, marketplaces, and excellent individual skills hidden inside larger repos are often hard to compare side by side. Skills for Anything reorganizes that landscape into a domain-based entry point.
 
 ## Contents
 
@@ -45,7 +45,7 @@ For this list, a skill is one of the following:
 - a curated skills directory
 - a high-signal skill directory inside a larger repository
 
-Most entries point to GitHub repositories. Some point directly to a specific skill directory when that is the most useful unit for discovery.
+Most entries point to repositories. A smaller number point directly to a specific skill directory when that is the most useful discovery unit.
 
 ## How to Use This List
 
@@ -62,12 +62,6 @@ Most entries point to GitHub repositories. Some point directly to a specific ski
 - [github/awesome-copilot](https://github.com/github/awesome-copilot) - GitHub Copilot ecosystem repository covering skills, agents, hooks, plugins, and agentic workflows.
 - [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) - Curated skills-focused index for Claude workflows, resources, and related tools.
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) - Broad community directory of official and community skills across Claude Code, Codex, Copilot, Cursor, Gemini CLI, and more.
-
-## Editor's Picks
-
-This section is intentionally light in v1.
-
-Once the catalog stabilizes, it will highlight a small number of personal recommendations rather than simply echoing popularity.
 
 ## Coding & Developer Workflows
 

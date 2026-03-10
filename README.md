@@ -6,20 +6,20 @@
 
 > 一个按领域组织的开源 AI Skills 精选合集，覆盖编程、研究、写作、设计、数据、产品、营销等方向。
 
-`Skills for Anything` 是一个以 GitHub 为核心的 Skills 发现入口。
+`Skills for Anything` 收集值得长期关注的开源 AI Skills 项目与相关资源。
 
-大多数 skills 仓库按平台组织，比如 Claude Code、Codex、Copilot 或 Cursor；这个项目更关心的是“你想完成什么工作”，所以它按领域来整理，而不是按平台来堆链接。
+现有的 skills 往往分散在不同平台、组织和仓库里。这个项目不按平台堆链接，而是按工作领域整理，方便从实际任务出发查找资源。
 
-这个列表追求的是高信号和可发现性，不是数量最大化。仓库里既收录完整的 skills 项目，也会在必要时直接收录某个特别值得关注的 skill 目录。
+这里更看重质量和可发现性，而不是数量。仓库里既收录完整的 skills 项目，也会在必要时单独收录特别值得查看的 skill 目录。
 
 最近校对：2026 年 3 月 10 日
 
 <a id="why-this-exists"></a>
 ## 为什么做这个项目
 
-开源 skills 生态正在快速扩张，但发现路径仍然很碎片化。
+开源 skills 生态发展很快，但发现路径依然分散。
 
-有些项目是官方技能仓库，有些是 marketplace，有些只是藏在大仓库里的一个非常强的 skill 目录。`Skills for Anything` 的目标，就是把这些资源按使用场景重新组织起来，让你能更快找到真正有价值的 skills。
+官方仓库、社区目录、marketplace，以及藏在大型仓库中的优质 skill，往往分散在不同入口里，不容易横向比较。这个项目尝试把它们重新整理成一个按领域浏览的入口。
 
 <a id="contents"></a>
 ## 目录
@@ -44,9 +44,9 @@
 - 结构化的 skill pack 或 plugin marketplace
 - skills 安装器、注册表或跨平台分发工具
 - skills 导航型目录
-- 大仓库里高质量、值得单独发现的某个 skill 目录
+- 大仓库里值得单独发现的某个 skill 目录
 
-大部分条目链接到 GitHub 仓库本身；当某个仓库里只有部分 skill 特别值得单独关注时，我也会直接链接到那个具体目录。
+大部分条目链接到 GitHub 仓库本身；只有在某个具体目录本身更值得查看时，才会直接链接到目录。
 
 <a id="how-to-use-this-list"></a>
 ## 怎么使用这个列表？
@@ -65,13 +65,6 @@
 - [github/awesome-copilot](https://github.com/github/awesome-copilot) - GitHub Copilot 生态资源仓库，收录 skills、agents、hooks、plugins 和 agentic workflows。
 - [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) - 围绕 Claude workflows 与相关资源整理的高质量 skills 导航。
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) - 面向 Claude Code、Codex、Copilot、Cursor、Gemini CLI 等多平台的广谱 skills 目录。
-
-<a id="editors-picks"></a>
-## 编辑推荐
-
-这个区块在 v1 中先保留结构，不急着堆主观推荐。
-
-等整体目录更稳定之后，再补一小组真正值得我个人明确推荐的 skills 和资源。
 
 <a id="coding--developer-workflows"></a>
 ## 编程与开发工作流
@@ -103,7 +96,7 @@
 <a id="design--creative"></a>
 ## 设计与创意
 
-- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - 面向多行业与多平台的 UI/UX 设计 intelligence skill pack。
+- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - 面向多行业与多平台的 UI/UX 设计 skill pack。
 - [canvas-design](https://github.com/anthropics/skills/tree/main/skills/canvas-design) - 用于视觉构思与画布式设计探索的官方 skill。
 - [frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design) - 把界面设计意图转换成具体实现建议的前端设计 skill。
 - [algorithmic-art](https://github.com/anthropics/skills/tree/main/skills/algorithmic-art) - 面向程序化视觉与创意生成的官方算法艺术 skill。
@@ -162,15 +155,15 @@
 - 明确属于可复用 skill、skill pack、skills 目录或 skills 基础设施
 - 有清晰的领域相关性
 - 不只是一次性 demo，而是具备复用价值
-- 有一定 traction、持续维护或生态影响力
+- 有一定关注度、持续维护或生态影响力
 - 能明显提升这个列表的发现价值
 
-这个仓库不会因为某个项目 README 里出现过一次 `skill` 就把它收进来。
+这个仓库不会因为某个项目 README 里提到过一次 `skill` 就收录它。
 
 <a id="contributing"></a>
 ## 参与贡献
 
-如果你发现了值得加入或值得修正的资源：
+如果你发现了值得加入或修正的资源：
 
 - 先阅读 [CONTRIBUTING.md](./CONTRIBUTING.md)
 - 默认优先提交 GitHub 仓库

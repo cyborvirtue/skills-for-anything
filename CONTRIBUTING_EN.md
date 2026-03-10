@@ -6,7 +6,7 @@
 
 Thanks for helping improve the list.
 
-This repository is intentionally curated. The goal is not to collect every repository that mentions "skills". The goal is to maintain a high-signal discovery hub for reusable AI skills and skills resources.
+This is a curated list. The goal is not to collect every repository that mentions "skills", but to maintain a high-signal directory for reusable AI skills and skills resources.
 
 ## What We Accept
 
@@ -18,7 +18,7 @@ Submit entries that are clearly one of these:
 - a curated skills directory
 - a standout skill directory inside a larger repository
 
-Strong candidates usually have at least one of these qualities:
+Strong candidates usually have one or more of these qualities:
 
 - practical reuse value
 - active maintenance
@@ -38,13 +38,13 @@ Please do not submit:
 
 ## Scope Rules
 
-This list is:
+This list follows three rules:
 
 - GitHub-first
 - domain-organized
 - selective rather than exhaustive
 
-That means:
+In practice, that means:
 
 - repository links are preferred
 - direct links to a specific skill directory are allowed when the directory is the most useful unit
@@ -98,4 +98,4 @@ Maintainers may reject entries that:
 - duplicate stronger entries already present
 - feel too early, too vague, or too low-signal
 
-Quality beats symmetry. Some domains will stay smaller until the ecosystem matures.
+Quality matters more than symmetry. Some domains will remain smaller until the ecosystem matures.
